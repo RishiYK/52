@@ -1,0 +1,77 @@
+.head{
+
+    margin: 0px;
+    background-color:white;
+    font-family:fantasy;
+}
+.menu{
+    display: flex;
+    justify-content:space-between; 
+    margin-left: 30px;
+    padding: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+.grid{
+    margin: 50px;
+    padding: 30px;
+    background-color: #E8A87C;
+    display: flex;
+    justify-content:space-evenly;
+    font-family:monospace;
+}
+.chameleon{
+    margin: 50px;
+    padding: 30px;
+
+    background-color: #41B3A3;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: monospace;
+}
+.pigeon{
+    margin: 50px;
+    padding: 30px;
+
+    background-color: #E8A87C;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: monospace;
+}
+.panda{
+    margin: 50px;
+    padding: 30px;
+    background-color: #41B3A3;
+    display: flex;
+    justify-content:space-evenly;
+    font-family: monospace;
+}
+
+a:link{
+    color: cornflowerblue;
+}
+a:visited{
+    color: cadetblue
+}
+.grid:hover{
+    transform: scale(0.9);
+}
+.chameleon:hover{
+    transform: scale(0.9);
+}
+.pigeon:hover{
+    transform: scale(0.9);
+}
+.panda:hover{
+    transform: scale(0.9);
+}
+.grid:hover{
+    opacity: 0.50;
+}
+.chameleon:hover{
+    opacity: 0.50;
+}
+.pigeon:hover{
+    opacity: 0.50;
+}
